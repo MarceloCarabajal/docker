@@ -1,0 +1,6 @@
+docker container run `
+-d `
+--name postgres-db `
+-e POSTGRES_PASSWORD=123456 `
+-v postgres-db:/var/lib/postgresql/data `
+postgres:15.1
